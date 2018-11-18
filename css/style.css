@@ -1,0 +1,112 @@
+body {
+    background:#000;
+}
+
+canvas {
+    display: flex;
+    position: absolute;
+    height = 100vw;
+    width = 100vw;
+  }
+
+#display {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#info {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#info img {
+    position: absolute;
+    background: linear-gradient(60deg, #74b484, #09ae98, #1396aa, #5474b6, #ef9439, #f66c51, #f54778, #a267ad);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 2.5px;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    margin-left: -16vw;
+    margin-top: 36vh;
+}
+
+#info #biography {
+    font-family: courier;
+    position: absolute;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 34.5vh;
+    margin-left: 4vw;
+    width: 320px;
+    border: 5px;
+    height: 150px;
+    background: -moz-linear-gradient(60deg, #74b484, #09ae98, #1396aa, #5474b6, #ef9439, #f66c51, #f54778, #a267ad);
+    background: -webkit-linear-gradient(60deg, #74b484, #09ae98, #1396aa, #5474b6, #ef9439, #f66c51, #f54778, #a267ad);
+    -moz-background-origin: border;
+    background-origin: border-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    box-shadow: inset -999px 0 0 #f0d1d6;
+}
+
+.fa-instagram {
+    color: #1396aa;
+    margin-top: 34vh;
+}
+
+.fa-github {
+    color: #a267ad;
+    margin-top: 41.5vh;
+}
+
+.fa-linkedin {
+    color: #f66c51;
+    margin-top: 49.5vh;
+}
+
+.fa-envelope {
+    color: #f54778;
+    margin-top: 57vh;
+}
+
+
+.fa {
+    background: #000000;
+    position: absolute;
+    padding: 10px;
+    height: 11px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 20vw;
+    border: 2px solid transparent;
+    text-shadow: 0px 0px 3px #000;
+    border-color: inherit;
+    transition: background 0.75s, color 1.25s, opacity 0.75s, border 0.75s;
+}
+
+.fa:hover {
+    border-color; color: black;
+    transition: background 0.75s, color 1.25s, opacity 0.75s, border 0.75s;
+}
+
+.fa-instagram:hover {
+    background: #1396aa;
+}
+
+.fa-github:hover {
+    background: #a267ad;
+}
+
+.fa-linkedin:hover {
+    background: #f66c51;
+}
+
+.fa-envelope:hover {
+    background: #f54778;
+}

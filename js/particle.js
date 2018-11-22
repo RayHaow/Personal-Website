@@ -1,17 +1,16 @@
 var DAMPING = 0.995;
 
-function GetRandomColor() {
-    var r = 0, g = 0, b = 0;
-    while (r < 100 && g < 100 && b < 100)
+    function GetRandomColor() {
+      var r = 0, g = 0, b = 0;
+      while (r < 100 && g < 100 && b < 100)
     {
         r = Math.floor(Math.random() * 256);
         g = Math.floor(Math.random() * 256);
         b = Math.floor(Math.random() * 256);
     }
-
     return "rgb(" + r + "," + g + ","  + b + ")";
 }
-
+        
       function Particle(x, y) {
         this.x = this.oldX = x;
         this.y = this.oldY = y;
